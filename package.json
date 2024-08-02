@@ -1,0 +1,14 @@
+{
+    "name": "incluDO",
+    "version": "1.0.0",
+    "main": "dist/main.js",
+    "type": "module",
+    "scripts": {
+      "build": "tsc",
+      "start": "node dist/main.js"
+    },
+    "devDependencies": {
+      "typescript": "^4.0.0"
+    }
+  }
+  
