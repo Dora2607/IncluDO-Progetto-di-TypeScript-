@@ -30,3 +30,4 @@ NB: Utilizzando i modificatori di accesso (public), ho scritto i costruttori in 
 
 ## Conclusione 
 
+Il progetto è stato deployato su codePen, è possibile prenderne visione al seguente link: [https://codepen.io/Addolorata-Sparagno/pen/QWXvxzg].
