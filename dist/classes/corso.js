@@ -1,9 +1,7 @@
-export class Corso {
-    courseTitle;
-    description;
-    professionalField;
-    duration;
-    participantsList;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Corso = void 0;
+class Corso {
     constructor(courseTitle, description, professionalField, duration, participantsList = []) {
         this.courseTitle = courseTitle;
         this.description = description;
@@ -15,3 +13,4 @@ export class Corso {
         this.participantsList.push(participant);
     }
 }
+exports.Corso = Corso;

@@ -1,8 +1,7 @@
-export class Azienda {
-    companyName;
-    businessSector;
-    description;
-    openPositions;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Azienda = void 0;
+class Azienda {
     constructor(companyName, businessSector, description, openPositions) {
         this.companyName = companyName;
         this.businessSector = businessSector;
@@ -24,3 +23,4 @@ export class Azienda {
         }
     }
 }
+exports.Azienda = Azienda;

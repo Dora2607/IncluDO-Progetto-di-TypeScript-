@@ -1,10 +1,7 @@
-export class Partecipante {
-    name;
-    surname;
-    countryOfOrigin;
-    educationLevel;
-    languageSkills;
-    educationField;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Partecipante = void 0;
+class Partecipante {
     constructor(name, surname, countryOfOrigin, educationLevel, languageSkills, educationField) {
         this.name = name;
         this.surname = surname;
@@ -22,3 +19,4 @@ export class Partecipante {
         });
     }
 }
+exports.Partecipante = Partecipante;

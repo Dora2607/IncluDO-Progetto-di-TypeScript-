@@ -1,8 +1,7 @@
 {
-    "name": "incluDO",
+    "name": "includo",
     "version": "1.0.0",
     "main": "dist/main.js",
-    "type": "module",
     "scripts": {
       "build": "tsc",
       "start": "node dist/main.js"
