@@ -4,6 +4,38 @@
 
 IncluDO è un programma di formazione professionale per migranti e persone svantaggiate, con l'obiettivo di includerli nel mondo del lavoro e salvare mestieri centenari. I percorsi di formazione sono sviluppati con artigiani del luogo e sono gratuiti, finanziati da fondi europei e regionali, nonché sponsorizzati da aziende locali.
 
+## Configurazione e prova in locale
+### Pre-requisiti
+Node: versione 22.2.0
+NPM: versione 10.8.1
+TypeScript: versione 5.5.4
+Per installare Node: scaricare la versione lts da: [https://nodejs.org/en/download/package-manager], verrà installato anche npm.
+
+Per installare TypeScript da terminale:
+```bash
+npm i -g typescript
+```
+
+### Installazione
+Per configurare e testare l'applicazione in locale, segui questi passaggi:
+
+Clona il repository sul tuo computer locale.
+Naviga nella directory del progetto e installa le dipendenze con npm install. 
+
+Per trasnpilare il progetto TypeScript in JavaScript e deployarlo, segui questi passaggi:
+
+- **Trasnpilazione**: Il progetto utilizza TypeScript per scrivere il codice sorgente. Per trasnpilare il codice TypeScript in JavaScript, esegui il comando seguente:
+```bash
+npm run build
+```
+Questo comando utilizza il compilatore TypeScript (tsc) per trasnpilare tutti i file nella directory src e genera i file JavaScript nella directory dist, come specificato nelle opzioni del compilatore (rootDir e outDir).
+
+- **Deploy**: Una volta che il codice è stato trasnpilato, puoi avviare l’applicazione eseguendo il comando seguente:
+```bash
+npm start
+```
+Questo comando esegue il file main.js generato nella directory dist utilizzando Node.js. Assicurati che il file main.js sia presente nella directory dist dopo la trasnpilazione.
+
 ## Struttura del Progetto
 
 Il progetto è composto da tre principali classi che implementano le rispettive interfacce.
